@@ -1,0 +1,33 @@
+.contenedor_objetivo {
+    margin-right   : auto;
+    margin-left    : auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* padding-top     : 20px;
+    padding-bottom  : 30px; */
+    background-color: #ff0000;
+    max-width: 1140px;
+  }
+  .contenedor_objetivo-titulo {
+    color      : #223F59;
+    text-align : center;
+    font-size  : 2.5rem;
+    font-weight: 500;
+  }
+  .contenedor_objetivo-texto {
+    text-align: justify;
+    color     : #797979;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0em 0;
+}
+.contenedor_objetivo-panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.contenedor_objetivo-panel-seccion{
+    background-color: aqua;
+    height: 100px;
+}
